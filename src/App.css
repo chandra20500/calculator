@@ -1,0 +1,71 @@
+.result {
+  height: 60px;
+  background-color: white ;
+  width: 41%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 100%;
+  margin: auto; 
+  margin-top: 8%;
+  }
+
+.button {
+  display: block;
+
+}
+.double{
+  width: 19.25%;
+}
+button {
+  width: 9%;
+  font-size: 40px;
+ background-color: #607d8b;
+  color: white;
+  border: none;
+}
+button:hover{
+  background-color: orange;
+}
+h1{
+  color: white;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: blue;
+}
+
+@media only screen and (max-width: 1100px){
+  
+  .result {
+  height: 60px;
+  background-color: white ;
+  width: 75%;
+}
+
+  button {
+  width: 18%;
+  font-size: 40px;
+ background-color: #607d8b;
+  color: white;
+  border:0px;
+}
+button:hover{
+  background-color: orange;
+}
+button:visited{
+  background-color: #607d8b;
+}
+.double{
+  width: 39.5%;
+}
+
+}
